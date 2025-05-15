@@ -1,5 +1,6 @@
-from fastapi import FastAPI
-from app.api.routes import transcript
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import Dict, Any
 
 app = FastAPI(
     title="Interview2CV API",
@@ -7,5 +8,69 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Include routers
-app.include_router(transcript.router, prefix="/api/v1", tags=["transcript"])
+class TranscriptRequest(BaseModel):
+    transcript: str
+
+class TranscriptResponse(BaseModel):
+    status: str
+    data: dict
+
+@app.post("/process_transcript", response_model=TranscriptResponse)
+async def process_transcript(request: TranscriptRequest):
+    """
+    Process an interview transcript and convert it to structured CV data.
+    
+    Args:
+        request (TranscriptRequest): The transcript text to process
+        
+    Returns:
+        TranscriptResponse: The processed CV data
+        
+    Raises:
+        HTTPException: If there's an error processing the transcript
+    """
+    try:
+        # TODO: Implement actual transcript processing logic
+        # This is a placeholder implementation
+        result = {
+            "personal_info": {
+                "name": "",
+                "email": "",
+                "phone": ""
+            },
+            "experience": [],
+            "education": [],
+            "skills": [],
+            "projects": []
+        }
+        
+        return TranscriptResponse(
+            status="success",
+            data=result
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error processing transcript: {str(e)}"
+        )
+
+@app.post("/get_linkedin_profile")
+async def get_linkedin_profile(request: str):
+    """
+    Get a LinkedIn profile based on a given URL.
+    
+    Args:
+        request (str): The LinkedIn profile URL to retrieve
+        
+    Returns:
+        str: The LinkedIn profile data
+    """
+    try:
+        # TODO: Implement actual LinkedIn profile retrieval logic
+        # This is a placeholder implementation
+        return "LinkedIn profile data"
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error retrieving LinkedIn profile: {str(e)}"
+        )

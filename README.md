@@ -1,3 +1,4 @@
+LINK TO DECK: https://gamma.app/docs/Interview2CV-Unlocking-Your-Professional-Potential-lie4jlteubxz3xy
 # Interview2CV
 
 A FastAPI-based backend service that processes interview transcripts and converts them into structured CV data.
