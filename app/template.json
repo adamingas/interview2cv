@@ -1,0 +1,56 @@
+{
+  "personalInformation": {
+    "name": "",
+    "title": "",
+    "email": "",
+    "location": {
+      "city": "",
+      "country": "",
+    },
+    "profileSummary": ""
+  },
+  "education": [
+    {
+      "degree": "",
+      "institution": "",
+      "location": "",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "relevantCourses": [],
+      "thesis": {
+        "title": "",
+        "description": "",
+      }
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "",
+      "company": "",
+      "location": "",
+      "startDate": "",
+      "endDate": "",
+      "isCurrent": false,
+      "description": "",
+      "responsibilities": [],
+      "technologies": []
+    }
+  ],
+  "skills": {
+    "technical": [
+      {
+        "name": "",
+        "proficiency": ""
+      }
+    ],
+    "languages": [
+      {
+        "language": "",
+        "proficiency": ""
+      }
+    ],
+    "soft": []
+  },
+  "interests": []
+}
