@@ -1,4 +1,6 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Dict, Any
 
@@ -8,12 +10,19 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# Mount static files
+app.mount("/static", StaticFiles(directory="app/static"), name="static")
+
 class TranscriptRequest(BaseModel):
     transcript: str
 
 class TranscriptResponse(BaseModel):
     status: str
     data: dict
+
+@app.get("/")
+async def root():
+    return FileResponse("app/static/index.html")
 
 @app.post("/process_transcript", response_model=TranscriptResponse)
 async def process_transcript(request: TranscriptRequest):
