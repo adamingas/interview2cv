@@ -1,0 +1,111 @@
+{
+  "jobs": [
+    {
+      "title": "Postgraduate Teaching Assistant",
+      "organisation": "UCL Electronic and Electrical Engineering",
+      "dates": "October 2023 - Present (1 year 8 months)",
+      "description": "ELEC0135 Applied Machine Learning Systems II: Reorganisation of Python labs on MLPs, MoEs, and Reinforcement Learning, setup GitHub Classroom assignments, heading delivery of course's Python labs. ELEC0136 Data Acquisition and Processing System: Making changes to Python labs, heading delivery of course's Python labs, grading student code on GitHub Classroom, developed and led Labs on data storage including CRUD operations on MySQL server and NoSQL with MongoDB, advanced data storage with Pinecone vector database, LLMs operations with Langchain."
+    },
+    {
+      "title": "Graduate Student Researcher - Reservoir Computing with Memristive Systems",
+      "organisation": "UCL Electronic and Electrical Engineering",
+      "dates": "November 2023 - June 2024 (8 months)",
+      "description": "Project: Multimodal Reservoir Computing with Optoelectronic Memristive Systems. Supervisor: Dr. Adnan Mehonic. The project is focused on creating efficient reservoir computing circuits with optoelectronic memristive systems for learning tasks and low-power computations. The scope of the research includes: SiOx ReRAM device characterization, memristive computing circuit simulations, and prototyping of demonstrator circuits."
+    },
+    {
+      "title": "Doctoral Student",
+      "organisation": "Connected Electronic and Photonic Systems - Centre for Doctoral Training",
+      "dates": "October 2023 - Present (1 year 8 months)",
+      "description": ""
+    },
+    {
+      "title": "Graduate Student Researcher - Analog In-sensor Computer Vision",
+      "organisation": "Department of Engineering at the University of Cambridge",
+      "dates": "June 2024 - August 2024 (3 months)",
+      "description": "Project: Analogue Computer Vision Operations for Low-Power In-Sensor Applications. Supervisor: Prof. Andrew Flewitt. The project is focused on designing electronic circuits to perform analog image processing with memristive systems. The scope of the research includes: Designing electronic circuits, assessing the image processing performances, setting requirements for memristive systems."
+    },
+    {
+      "title": "Research Assistant - Behnia Lab",
+      "organisation": "Columbia's Mortimer B. Zuckerman Mind Brain and Behavior Institute",
+      "dates": "September 2022 - June 2023 (10 months)",
+      "description": "Prototyped a UV-sensitive camera with Raspberry Pies, debayered cameras, dichroic mirrors and optical components, to study color vision in fruitflies. Collaborated with academics from 3 departments at Columbia University, Sheffield University, and the University of Tubingen. Presented a poster at the 2023 New York Nanotechnology Network Symposium. Training received: Columbia CNI's cleanroom cerifications: solvant bath, plasma ashing, SEM imaging and material characterisation. Columbia ZI's makerspace cerifications: milling, 3D printing, laser cutting, 3D modeling with Fusion360, and chemical handling and disposal."
+    },
+    {
+      "title": "Finalist - Business Applicant - Bio Track",
+      "organisation": "Nucleate",
+      "dates": "October 2022 - December 2022 (3 months)",
+      "description": "Established and pitched the business case for a goal-directed preclinical drug discovery and development pipeline driven by real time model construction and validation. Made an elevator pitch for brain on chip for neuropsychiatric preclinical drug development, won first place at Columbia University ELC C-VCIC startup pitch and due diligence competition. Networked within the biotech community of the tri-state area."
+    },
+    {
+      "title": "Bioinformatics/Datascience Intern",
+      "organisation": "EVQLV",
+      "dates": "May 2022 - September 2022 (5 months)",
+      "description": "Prepared, organized, and pre-processed antibody binding affinity data for machine learning algorithm training. Evaluated and validated models of semi-synthetic data generation of antibody binding affinity using a Monte Carlo-based docking simulation procedure; identified patterns and areas of uncertainty. Performed multi-thread computing in Python with AWS Sagemaker."
+    },
+    {
+      "title": "Graduate Student Machine Learning Researcher - Anacker Lab",
+      "organisation": "New York State Psychiatric Institute",
+      "dates": "November 2021 - May 2022 (7 months)",
+      "description": "Processed calcium fluorescence activity video feeds from mouse hippocampi to correlate Neural Activity to behaviors, using preprocessing technics and Convolutional Neural Network Algorithms."
+    },
+    {
+      "title": "Machine Learning Intern",
+      "organisation": "CGG",
+      "dates": "July 2020 - July 2020 (1 month)",
+      "description": "Experimented with a method of deducing the Decoder from the Encoder in an Autoencoder Neural Network to improve training time and performances on the MNIST dataset."
+    }
+  ],
+  "education": [
+    {
+      "title": "Doctor of Philosophy - PhD, CDT in Connected Electronics and Photonics",
+      "organisation": "UCL",
+      "dates": "September 2023 - August 2027",
+      "description": ""
+    },
+    {
+      "title": "Master of Science - MS, Biomedical Engineering",
+      "organisation": "Columbia University in the City of New York",
+      "dates": "August 2021 - December 2022",
+      "description": ""
+    },
+    {
+      "title": "Master of Engineering - MEng, Signal Processing for Artificial Intelligence, Imaging",
+      "organisation": "Télécom Paris",
+      "dates": "September 2019 - July 2021",
+      "description": ""
+    },
+    {
+      "title": "Engineering",
+      "organisation": "CPGE lycée Faidherbe (French classes Prépa)",
+      "dates": "2017 - 2019",
+      "description": ""
+    },
+    {
+      "title": "High school, General Studies",
+      "organisation": "Lycée Français Jean Monnet",
+      "dates": "2013 - 2017",
+      "description": ""
+    }
+  ],
+  "volunteering": [],
+  "skills": [
+    {
+      "title": "Neuromorphic Engineering",
+      "organisation": "",
+      "dates": "",
+      "description": ""
+    },
+    {
+      "title": "GitHub",
+      "organisation": "",
+      "dates": "",
+      "description": ""
+    },
+    {
+      "title": "Cloud Computing",
+      "organisation": "",
+      "dates": "",
+      "description": ""
+    }
+  ]
+}
