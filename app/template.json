@@ -5,7 +5,7 @@
     "email": "",
     "location": {
       "city": "",
-      "country": "",
+      "country": ""
     },
     "profileSummary": ""
   },
@@ -20,7 +20,7 @@
       "relevantCourses": [],
       "thesis": {
         "title": "",
-        "description": "",
+        "description": ""
       }
     }
   ],
